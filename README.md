@@ -1,4 +1,4 @@
-﻿# Stufidy
+﻿# Studify
 
 <h2> Criação de um bot do discord para estudos. </h3>
 
