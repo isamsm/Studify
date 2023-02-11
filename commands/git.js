@@ -2,7 +2,7 @@
 
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js')
 
-const exampleEmbed = new EmbedBuilder()
+const gitEmbed = new EmbedBuilder()
 	.setColor('Purple')
 	.setTitle('Git commands')
 	.addFields(
@@ -32,6 +32,6 @@ module.exports = {
     // Run when user interacts with bot
 
     async execute(interaction) {
-        await interaction.reply({ embeds: [exampleEmbed] })
+        await interaction.reply({ embeds: [gitEmbed] })
     }
 }
